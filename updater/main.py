@@ -39,3 +39,4 @@ def update_if_needed(module: str, release: ApkRelease):
 fdroid_main_repo = 'https://cloudflare.f-droid.org/repo'
 
 update_if_needed('LocalGsmNlpBackend', fdroid_recommended_release(fdroid_main_repo, 'org.fitchfamily.android.gsmlocation'))
+update_if_needed('AuroraDroid', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.adroid'))
