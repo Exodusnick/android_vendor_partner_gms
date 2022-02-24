@@ -40,3 +40,4 @@ fdroid_main_repo = 'https://cloudflare.f-droid.org/repo'
 
 update_if_needed('LocalGsmNlpBackend', fdroid_recommended_release(fdroid_main_repo, 'org.fitchfamily.android.gsmlocation'))
 update_if_needed('AuroraDroid', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.adroid'))
+update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
