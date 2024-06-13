@@ -14,3 +14,4 @@ ifneq ($(call math_gt_or_eq, $(PLATFORM_SDK_VERSION), 31),)
 endif
 
 include $(BUILD_PREBUILT)
+
